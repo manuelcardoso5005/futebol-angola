@@ -11,7 +11,7 @@ const HeaderLink: React.FC<HeaderLinkProps> = ({ href, children, active }) => {
         <li>
             <Link 
                 href={href}
-                className={`relative text-[rgba(255,255,255,0.9)] no-underline font-medium text-[1.1rem] py-2 px-3 
+                className={`nav-link relative text-[rgba(255,255,255,0.9)] no-underline font-medium text-[1.1rem] py-2 px-3 
                 rounded transition-all duration-300 ease-in-out after:content-[''] after:absolute after:bottom-0 
                 after:left-1/2 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 
                 after:ease-in-out after:-translate-x-1/2 hover:text-white hover:bg-white/10 hover:after:w-4/5

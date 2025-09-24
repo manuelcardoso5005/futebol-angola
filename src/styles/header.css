@@ -1,0 +1,59 @@
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1300px) {
+  .nav-area {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .menu {
+    gap: 1rem;
+  }
+
+  .search input {
+    width: 280px;
+  }
+
+  .search input:focus {
+    width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.8rem 1rem;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .search input {
+    width: 220px;
+  }
+
+  .search input:focus {
+    width: 250px;
+  }
+}
